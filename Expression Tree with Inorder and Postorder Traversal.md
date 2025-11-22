@@ -3,8 +3,6 @@
 ## AIM:
 To write a Python program to build the given expression tree and print the inorder and postorder traversals.
 
----
-
 ## ALGORITHM:
 
 1. **Start the program.**
@@ -14,16 +12,21 @@ To write a Python program to build the given expression tree and print the inord
 5. Print the **inorder** and **postorder** traversal of the tree.
 6. **End the program.**
 
----
-
 ## PROGRAM:
 
 ```
-WRITE YOUR CODE
+Reg.No: 212222060182
+Name: Preethika S
+from binarytree import build,Node
+x=['*','+','-',9,3,8,4]
+t=build(x)
+print(t.inorder)
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/b54d0e53-2022-4283-a2ac-c037acfe4a27)
+
 
 ## RESULT
+
+Thus, the python program to build the given expression tree and print the inorder and postorder traversals has been executed and verified successfully.
