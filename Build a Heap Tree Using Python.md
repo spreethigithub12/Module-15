@@ -3,8 +3,6 @@
 ## AIM:
 To write a Python program to build a heap tree using appropriate Python package and function.
 
----
-
 ## ALGORITHM:
 
 1. **Start the program.**
@@ -14,16 +12,22 @@ To write a Python program to build a heap tree using appropriate Python package 
 5. Print the created heap.
 6. **End the program.**
 
----
-
 ## PROGRAM:
 
 ```
-WRITE YOUR CODE
+Reg.No: 212222060182
+Name: Preethika S
+
+ Import the heapq module
+import heapq
+def heaptree(H):
+    heapq.heapify(H)
+    print(f"The created Heap is {H}")
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/48f5d924-0840-4725-a5db-a1fba0134df4)
+
 
 ## RESULT
+Thus, the python program to build a heap tree using appropriate Python package and function has been executed and verified successfully.
